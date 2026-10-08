@@ -35,7 +35,7 @@ MUTABLE_TAG ?= latest
 IMAGE        = public.ecr.aws/g7v6l0u0/openshift/mapi-provider-nutanix
 BUILD_IMAGE ?= registry.ci.openshift.org/ocp/builder:rhel-9-golang-1.26-openshift-5.1
 # ENVTEST_K8S_VERSION refers to the version of kubebuilder assets to be downloaded by envtest binary.
-ENVTEST_K8S_VERSION = 1.36.2
+ENVTEST_K8S_VERSION = 1.37.1
 
 # race tests need CGO_ENABLED, everything else should have it disabled
 CGO_ENABLED = 0
